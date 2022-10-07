@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+
+    <!-- Home Section -->
+    <div class="padding-box-shadow">
+        <h1 class="main-heading"> Home </h1>
+        <p> <%= startingContent %> </p>
+
+        <!-- Button redirects to enter new experience -->
+        <button class="btn btn-info" type="submit" onclick="location.href = '/compose';">Compose</button>
+    </div>
+    
+
+    <!-- Displays each post that exists in Database -->
+    <div class="home-content">
+        <% posts.forEach(function(post) { %>
+            <h1 class="sub-heading posts"> <%= post.title %> </h1>
+            <p> 
+                <%=post.content.substring(0, 100) + "..." %>
+                <a href="/posts/<%=post._id%>">Read More</a>
+            </p>
+        <% }) %>    
+    </div> 
+
+<%- include('partials/footer') %>

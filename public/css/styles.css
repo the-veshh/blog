@@ -1,0 +1,123 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+    
+body {
+    min-height: 100%;
+    position: relative;
+}
+
+.main-heading {
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    color: #1597BB;
+    margin-top: 0;
+}
+
+.sub-heading {
+    font-family: 'Secular One', sans-serif;
+    color: #448EF6;
+}
+
+.col-lg-6 {
+    min-height: 300px;
+}
+
+.padding-box-shadow {
+    padding: 20px 40px;
+    background-color: #FCF8E8;
+    box-shadow:
+    0.7px 1.4px 1.1px rgba(0, 0, 0, 0.004),
+    1.7px 3px 2.6px rgba(0, 0, 0, 0.01),
+    2.9px 5.4px 4.8px rgba(0, 0, 0, 0.019),
+    5px 9.2px 8px rgba(0, 0, 0, 0.03),
+    8.9px 16.3px 13.3px rgba(0, 0, 0, 0.044),
+    17.7px 32.2px 22.9px rgba(0, 0, 0, 0.061),
+    51px 93px 45px rgba(0, 0, 0, 0.09);
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+    color: #79DAE8 !important;
+}
+
+
+/* Home Section */
+
+.home-content {
+    padding-top: 50px;
+}
+
+
+/* About Page */
+
+.about-image {
+    width: 50%; 
+    height: auto;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-text {
+    width: 50%; 
+    float:left;
+}
+
+.about-image-msit {
+    max-height: 800px;
+}
+
+
+/* Contact Page */
+
+.handle {
+    color: #7E7474;
+}
+
+.contact-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.contact-image-div {
+    width: 200px;
+    float: left;
+}
+
+.contact-text-div {
+    padding-top: 30px;
+    width: 850px;
+    float: right;
+}
+
+
+/* Specific Post Page*/
+
+.posts {
+    padding-top: 30px;
+}
+.post-content {
+    white-space: pre-line;
+}
